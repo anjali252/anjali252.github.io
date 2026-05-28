@@ -195,7 +195,7 @@
   /* ---- STATS STRIP ---- */
   .stats {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
     animation: fadeUp 0.8s 0.75s ease both;
@@ -565,7 +565,7 @@
 
   <!-- floating code lines -->
   <span class="code-line" style="top:15%;right:5%">@Test public void verifyQuality() {</span>
-  <span class="code-line" style="top:22%;right:5%">&nbsp;&nbsp;assert coverage >= 70; // %</span>
+  <span class="code-line" style="top:22%;right:5%">&nbsp;&nbsp;driver.get("https://quality.matters");</span>
   <span class="code-line" style="top:29%;right:5%">}</span>
   <span class="code-line" style="bottom:25%;right:8%">driver.findElement(By.id("quality"));</span>
 
@@ -587,24 +587,7 @@
 </section>
 
 <!-- STATS -->
-<div class="stats reveal">
-  <div class="stat">
-    <span class="stat-num">7+</span>
-    <span class="stat-label">Years Experience</span>
-  </div>
-  <div class="stat">
-    <span class="stat-num">70%+</span>
-    <span class="stat-label">Automation Coverage</span>
-  </div>
-  <div class="stat">
-    <span class="stat-num">100%</span>
-    <span class="stat-label">Regression Pass Rate</span>
-  </div>
-  <div class="stat">
-    <span class="stat-num">1500+</span>
-    <span class="stat-label">Test Cases Built</span>
-  </div>
-</div>
+
 
 <!-- EXPERIENCE -->
 <section id="experience">
