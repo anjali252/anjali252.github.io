@@ -368,6 +368,7 @@
   .skill-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
   .skill-pill {
+    display: inline-block;
     font-family: 'DM Mono', monospace;
     font-size: 0.72rem;
     padding: 0.35rem 0.85rem;
@@ -375,6 +376,7 @@
     border: 1px solid rgba(58,143,204,0.2);
     color: var(--pale);
     transition: all 0.3s;
+    white-space: nowrap;
   }
   .skill-pill:hover { background: rgba(0,201,167,0.1); border-color: var(--accent); color: var(--white); }
 
@@ -678,56 +680,47 @@
     <div class="skill-group reveal">
       <div class="skill-group-title">Core Automation</div>
       <div class="skill-pills">
-        <span class="skill-pill hot">Selenium WebDriver 4.x</span>
-        <span class="skill-pill hot">Java</span>
-        <span class="skill-pill hot">Python</span>
+        <span class="skill-pill">Selenium WebDriver 4.x</span>
+        <span class="skill-pill">Java</span>
         <span class="skill-pill">TestNG</span>
         <span class="skill-pill">JUnit</span>
         <span class="skill-pill">Page Object Model</span>
-        <span class="skill-pill">Playwright</span>
       </div>
     </div>
 
     <div class="skill-group reveal">
       <div class="skill-group-title">BDD & Frameworks</div>
       <div class="skill-pills">
-        <span class="skill-pill hot">Cucumber BDD</span>
-        <span class="skill-pill hot">Gherkin</span>
-        <span class="skill-pill">REST Assured</span>
-        <span class="skill-pill">Appium</span>
-        <span class="skill-pill">TestNG XML</span>
+        <span class="skill-pill">Cucumber BDD</span>
+        <span class="skill-pill">Gherkin</span>
       </div>
     </div>
 
     <div class="skill-group reveal">
       <div class="skill-group-title">CI/CD & DevOps</div>
       <div class="skill-pills">
-        <span class="skill-pill hot">Jenkins</span>
-        <span class="skill-pill hot">Git</span>
-        <span class="skill-pill">Concourse CI</span>
+        <span class="skill-pill">Jenkins</span>
+        <span class="skill-pill">Git</span>
         <span class="skill-pill">Maven</span>
         <span class="skill-pill">Gradle</span>
-        <span class="skill-pill">GitHub Actions</span>
       </div>
     </div>
 
     <div class="skill-group reveal">
       <div class="skill-group-title">Performance & Quality</div>
       <div class="skill-pills">
-        <span class="skill-pill hot">JMeter</span>
-        <span class="skill-pill hot">SonarQube</span>
+        <span class="skill-pill">JMeter</span>
+        <span class="skill-pill">SonarQube</span>
         <span class="skill-pill">Checkstyle</span>
-        <span class="skill-pill">NFR Testing</span>
-        <span class="skill-pill">Load Testing</span>
       </div>
     </div>
 
     <div class="skill-group reveal">
       <div class="skill-group-title">Accessibility Testing</div>
       <div class="skill-pills">
-        <span class="skill-pill hot">WCAG 2.0</span>
-        <span class="skill-pill hot">Section 508</span>
-        <span class="skill-pill hot">JAWS</span>
+        <span class="skill-pill">WCAG 2.0</span>
+        <span class="skill-pill">Section 508</span>
+        <span class="skill-pill">JAWS</span>
         <span class="skill-pill">Axe</span>
         <span class="skill-pill">TalkBack</span>
         <span class="skill-pill">VoiceOver</span>
@@ -737,12 +730,13 @@
     <div class="skill-group reveal">
       <div class="skill-group-title">Tools & Process</div>
       <div class="skill-pills">
-        <span class="skill-pill hot">JIRA</span>
+        <span class="skill-pill">JIRA</span>
         <span class="skill-pill">Confluence</span>
+        <span class="skill-pill">GitHub</span>
         <span class="skill-pill">Bitbucket</span>
         <span class="skill-pill">Agile/Scrum</span>
-        <span class="skill-pill">Cross-Browser Testing</span>
-        <span class="skill-pill">SQL</span>
+        <span class="skill-pill">SeeTest</span>
+
       </div>
     </div>
   </div>
